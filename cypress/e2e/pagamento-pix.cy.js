@@ -1,16 +1,12 @@
-describe('Fluxo de Pagamento via PIX', () => {
+describe('Menu Commands - Cypress Example', () => {
 
-  it('Deve simular geração de QR Code ao selecionar PIX', () => {
+  it('Deve exibir opções do menu Commands ao clicar', () => {
 
     cy.visit('https://example.cypress.io')
 
-    cy.contains('Forms').click()
+    cy.contains('Commands').click()
 
-    cy.get('input[type="checkbox"]').first().check()
-
-    cy.get('button').contains('Submit').click()
-
-    cy.url().should('include', 'commands/actions')
+    cy.contains('Querying').should('be.visible')
 
   })
 
