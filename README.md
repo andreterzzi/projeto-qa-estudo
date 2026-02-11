@@ -1,31 +1,20 @@
-# Projeto QA Automation - Cypress
+# 🚀 Projeto QA Estudo - Cypress
 
-Projeto de estudo focado em automação de testes E2E utilizando Cypress.
+Projeto de estudos focado em automação de testes End-to-End utilizando Cypress.
 
-## 🔎 Cenários Automatizados
+## 📌 Tecnologias utilizadas
 
-- ✅ Fluxo de Login
-- ✅ Simulação de Pagamento via PIX
-
-## 🛠 Tecnologias utilizadas
-
-- JavaScript
 - Cypress
+- JavaScript
 - Node.js
-- Git e GitHub
+- Git & GitHub
 
-## ▶️ Como executar o projeto
+## 📂 Estrutura do Projeto
 
-1. Instalar dependências:
-   npm install
+- Testes de Login
+- Testes de Fluxo de Pagamento (simulação PIX)
 
-2. Executar Cypress:
-   npx cypress open
+## ▶️ Como executar
 
-ou
-
-   npx cypress run
-
----
-
-Projeto desenvolvido para prática e evolução na área de QA Automation.
+1. Clonar o repositório
+2. Instalar dependências:
