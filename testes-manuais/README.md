@@ -1,51 +1,76 @@
-# Projeto QA – Estudos de Testes Manuais e Automação
-Este projeto foi desenvolvido com o objetivo de praticar e demonstrar conhecimentos em **Qualidade de Software (QA)**, com foco em **testes manuais**, **documentação de testes** e **introdução à automação de testes web**.
+# Projeto QA Automation - Cypress
 
-O projeto simula um fluxo real de trabalho de QA, priorizando boas práticas, organização dos testes e clareza na documentação.
+Projeto de estudo focado em automação de testes E2E utilizando Cypress.
 
----
+## 🔎 Cenários Automatizados
 
-## 🎯 Objetivos do Projeto
-- Praticar a criação e organização de **casos de teste manuais**
-- Documentar cenários de teste de forma clara e objetiva
-- Simular um fluxo real de trabalho de QA
-- Aplicar versionamento de código utilizando Git e GitHub
-- Iniciar estudos em **automação de testes web com Cypress**
+- ✅ Fluxo de Login
+- ✅ Simulação de Pagamento via PIX
 
----
+## 🛠 Tecnologias utilizadas
 
-## 🧪 Escopo dos Testes
-
-### Testes Manuais
-- Funcionalidade de login
-- Cenários positivos e negativos
-- Critérios de validação bem definidos
-- Documentação em arquivos **Markdown (.md)**
-
-### Testes Mobile
-- Execução de testes manuais em aplicações **Android e iOS**
-- Validação de comportamento e fluxo básico das telas
-
-### Automação de Testes (E2E)
-- Iniciar estudos em **automação de testes web com Cypress**
-- Criação de testes automatizados iniciais utilizando **Cypress**
-- Simulação de fluxo de login
-- Validação de mensagens de sucesso e erro
-
----
-
-## 🛠️ Tecnologias e Ferramentas Utilizadas
-- Cypress
 - JavaScript
+- Cypress
+- Node.js
 - Git e GitHub
-- Markdown (.md)
+
+## ▶️ Como executar o projeto
+
+1. Instalar dependências:
+   npm install
+
+2. Executar Cypress:
+   npx cypress open
+
+ou
+
+   npx cypress run
 
 ---
 
-## 📁 Organização do Projeto
-Os testes estão organizados por tipo e funcionalidade, priorizando clareza, padronização e fácil entendimento.
+Projeto desenvolvido para prática e evolução na área de QA Automation.
+[16:37, 11/02/2026] Ceci: # 🧪 Projeto QA Estudo - Automação com Cypress
+
+## 📌 Sobre o Projeto
+Projeto desenvolvido para estudo e prática de automação de testes utilizando Cypress.
+
+O objetivo é simular fluxos reais de usuário, como login e pagamento via PIX, aplicando boas práticas de versionamento com Git e GitHub.
 
 ---
 
-## 📌 Observações
-Projeto desenvolvido para **fins de estudo e prática**, com foco no aprendizado contínuo em Qualidade de Software (QA).
+## 🚀 Tecnologias Utilizadas
+
+- JavaScript
+- Cypress
+- Node.js
+- Git
+- GitHub
+
+---
+
+## 📂 Estrutura do Projeto
+
+cypress/
+ ├── e2e/
+ │   └── pagamento-pix.cy.js
+ ├── fixtures/
+ ├── support/
+
+---
+
+## 🧪 Cenários Automatizados
+
+- Simulação de fluxo de pagamento via PIX
+- Validação de redirecionamento
+- Interações com formulário
+
+---
+
+## ▶️ Como executar o projeto
+
+1. Clonar o repositório:
+---
+
+## 👩‍💻 Autor
+André Terzi
+QA em evolução para automação 🚀
